@@ -21,6 +21,15 @@ It integrates **standalone scripts** and **reproducible Jupyter Notebooks**, off
 
 ---
 
+## 🔄 Workflow
+
+```mermaid
+flowchart LR
+    A[Raw IPC Dataset] --> B[Cleaning & Normalization]
+    B --> C[Classification: WIPO GREEN / non-GREEN]
+    C --> D[Export Clean Dataset]
+```
+
 ## 🚀 Usage
 1. Clone the repository:
    ```bash
