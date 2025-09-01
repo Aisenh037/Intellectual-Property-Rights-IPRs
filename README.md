@@ -47,4 +47,9 @@ flowchart LR
 4. Explore the Jupyter Notebooks:
    ```bash
    jupyter notebook
-   
+
+# 🎯 Intended Audience
+
+- Researchers exploring legal data, sustainability law, and policy frameworks.
+- Data scientists building NLP models for legal-tech applications.
+- Practitioners requiring reproducible preprocessing of IPC datasets.
