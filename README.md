@@ -53,3 +53,27 @@ flowchart LR
 - Researchers exploring legal data, sustainability law, and policy frameworks.
 - Data scientists building NLP models for legal-tech applications.
 - Practitioners requiring reproducible preprocessing of IPC datasets.
+
+
+---
+
+## 🌿 SDG Patent Harmonization & WIPO Green IPC Feature Extraction Pipeline
+
+This repository includes the end-to-end pipeline for Indian Patent grant datasets harmonized with UN Sustainable Development Goals (SDG) target applications:
+
+- **Target Dataset**: 360,924 records strictly matching Application nos SDG.xlsx (filing years 1995-2022).
+- **Verified Baseline**: 48,972 Green Patents matching Green patents 48972.xlsx.
+- **8 Feature Columns Generated**:
+  1. IC_Code_Type (Green (1): **48,972** | Non-Green (0): **311,924** | NaN: **28**)
+  2. Matched_IPC (Semicolon-separated matched green IPC codes)
+  3. First_IPC_Green (Green (1): **29,072** | Non-Green (0): **331,824** | NaN: **28**)
+  4. Matched_IPC_first (Green code matched by the primary IPC)
+  5. 30-IPC-Green (Green (1): **34,301** | Non-Green (0): **326,595** | NaN: **28**)
+  6. Matched_IPC-30 (Matched codes when >= 30% threshold met)
+  7. 50-IPC-Green (Green (1): **26,542** | Non-Green (0): **334,354** | NaN: **28**)
+  8. Matched_IPC-50 (Matched codes when >= 50% threshold met)
+
+### Quick Links:
+- 📖 [Complete Pipeline Documentation](docs/SDG_GREEN_PATENT_PIPELINE.md)
+- 🚀 [Standalone Pipeline Script](sdg_green_patent_matching_pipeline.py)
+- 📂 [Modular Processing Scripts](sdg_pipeline/)
