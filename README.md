@@ -75,5 +75,8 @@ This repository includes the end-to-end pipeline for Indian Patent grant dataset
 
 ### Quick Links:
 - 📖 [Complete Pipeline Documentation](docs/SDG_GREEN_PATENT_PIPELINE.md)
+- 🎯 [First, 30%, and 50% Green IPC Matching Guide](docs/FIRST_30_50_IPC_MATCHING_GUIDE.md)
 - 🚀 [Standalone Pipeline Script](sdg_green_patent_matching_pipeline.py)
+- ⚡ [First / 30% / 50% Matching Script](sdg_pipeline/08_match_first_30_50_green_ipc.py)
 - 📂 [Modular Processing Scripts](sdg_pipeline/)
+

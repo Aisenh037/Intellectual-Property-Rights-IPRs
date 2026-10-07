@@ -1,0 +1,7 @@
+﻿*.xlsx
+*.csv
+*.parquet
+*.zip
+*.ipynb_checkpoints
+~$*
+.system_generated
